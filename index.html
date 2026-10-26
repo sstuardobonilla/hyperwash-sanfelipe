@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperWash San Felipe | Lavado de Autos a Domicilio</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="logo">Hyper<span>Wash</span> San Felipe</div>
+        <nav class="nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#reserva" class="btn-nav">Reservar</a>
+        </nav>
+    </header>
+
+    <!-- Sección Principal (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Lavado Premium a Domicilio en San Felipe</h1>
+            <p>Dejamos tu vehículo reluciente sin que salgas de casa. Calidad, rapidez y cuidado garantizado.</p>
+            <a href="#reserva" class="btn-primary">Agendar Mi Lavado</a>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="card">
+                <h3>Lavado Express</h3>
+                <p class="price">$12.000</p>
+                <ul>
+                    <li>Lavado exterior con espuma activa</li>
+                    <li>Limpieza de llantas y neumáticos</li>
+                    <li>Secado con microfibra</li>
+                </ul>
+            </div>
+            <div class="card card-featured">
+                <h3>Lavado Full Detail</h3>
+                <p class="price">$22.000</p>
+                <ul>
+                    <li>Lavado exterior e interior completo</li>
+                    <li>Aspirado profundo de tapiz</li>
+                    <li>Aplicación de renovador de plásticos y silicona</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Limpieza de Tapiz</h3>
+                <p class="price">$35.000</p>
+                <ul>
+                    <li>Lavado a vapor de asientos</li>
+                    <li>Eliminación de manchas y olores</li>
+                    <li>Desinfección de cabina</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Reserva -->
+    <section id="reserva" class="booking">
+        <h2>Reserva tu Hora</h2>
+        <form class="booking-form">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+
+            <label for="telefono">Teléfono / WhatsApp:</label>
+            <input type="tel" id="telefono" name="telefono" placeholder="+56 9 1234 5678" required>
+
+            <label for="direccion">Dirección en San Felipe:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Ej. Av. Chacabuco #123" required>
+
+            <label for="servicio">Servicio Requerido:</label>
+            <select id="servicio" name="servicio">
+                <option value="express">Lavado Express</option>
+                <option value="full">Lavado Full Detail</option>
+                <option value="tapiz">Limpieza de Tapiz</option>
+            </select>
+
+            <button type="submit" class="btn-primary">Confirmar Reserva</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <p>&copy; 2026 HyperWash San Felipe. Todos los derechos reservados.</p>
+        <p>Atención a domicilio en San Felipe y alrededores.</p>
+    </footer>
+
+</body>
+</html>
